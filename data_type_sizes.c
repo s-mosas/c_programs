@@ -10,7 +10,7 @@ printf("%-22s %5zu %25.10Le %25.10Le\n",#type, sizeof(type), (long double) (min)
 
 int main() {
 printf("INTEGER SIZE\n");
-printf("%-22s %5s %25s %25s\n", "Type", "Bitys", "Minimum", "Maximum");
+printf("%-22s %5s %25s %25s\n", "Type", "Bytes", "Minimum", "Maximum");
 
 ACint, INT_MIN, INT_MAX);
 A(unsigned int, 0, UINT_MAX);
@@ -25,7 +25,7 @@ A(short, SHRT_MIN,SHRT_MAX);
 A(unsigned short, 0, USHRT_MAX);
 
 printf("\nFLOAT SIZE\n");
-printf("%22s %5s %25s %25s\n", "Type", "Bitys", "Minimum", "Maximum");
+printf("%22s %5s %25s %25s\n", "Type", "Bytes", "Minimum", "Maximum");
 
 B(float, FLT_MIN, FLT_MAX);
 B(double, DBL MIN, DBL_MAX);
